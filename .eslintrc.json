@@ -24,6 +24,8 @@
         "prettier"
     ],
     "rules": {
+      "react/require-default-props": "off",
+      "import/prefer-default-export": "off",
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "prettier/prettier": "error",
       "react-hooks/rules-of-hooks": "error",

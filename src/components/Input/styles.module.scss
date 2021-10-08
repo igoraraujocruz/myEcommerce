@@ -1,0 +1,26 @@
+.container {
+  background: #fafafa;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  color: #666360;
+
+	input {
+		flex: 1;
+		border: 0;
+		margin-left: 10px;
+		outline: none;
+    border-radius: 0 2rem 2rem 0;
+
+		&::placeholder {
+			color: #666360;
+		}
+	}
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    color: #616161;;
+  }
+}

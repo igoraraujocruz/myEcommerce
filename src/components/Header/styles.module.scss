@@ -1,0 +1,32 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	height: 10rem;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  background: rgb(0, 0, 0);
+}
+
+.headerContent {
+	max-width: 1120px;
+
+  h1 {
+    color: white;
+  }
+
+	nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+      margin-right: 1rem;
+    }
+
+    Form {
+      margin-right: 1rem;
+    }
+	}
+}
