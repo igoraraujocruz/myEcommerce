@@ -25,7 +25,7 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
       <input ref={inputRef} {...rest} defaultValue={defaultValue} />
       {Icon && (
         <div className={styles.search}>
-          <Icon size={35} />
+          <Icon size={20} />
         </div>
       )}
     </div>

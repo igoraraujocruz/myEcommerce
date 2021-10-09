@@ -11,9 +11,13 @@ export function Header() {
         <nav>
           <h1>Forja Ecommerce</h1>
           <Form onSubmit={() => console.log('teste')}>
-            <Input name="search" icon={BiSearchAlt2} />
+            <Input
+              className={styles.search}
+              name="search"
+              icon={BiSearchAlt2}
+            />
           </Form>
-          <HiOutlineShoppingCart size={30} />
+          <HiOutlineShoppingCart size={25} />
         </nav>
       </div>
     </header>
