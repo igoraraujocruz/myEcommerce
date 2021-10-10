@@ -8,13 +8,28 @@
     position: relative;
     margin: 0;
     left: 0;
+    overflow: hidden;
 
     img {
-
+      cursor: pointer;
       width: 100vw;
       height: 60vh;
       object-fit: cover;
       float: left;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+      transition: transform 0.5s, filter 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        filter: none;
+      }
     }
   }
 }
