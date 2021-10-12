@@ -117,25 +117,19 @@ export default function Product() {
 
   return (
     <>
-      <div id={styles.slider}>
-        <figure>
-          <img
-            src="https://http2.mlstatic.com/D_NQ_NP_652858-MLB45455601791_042021-O.webp"
-            alt="bone"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-            alt="bone"
-          />
-          <img
-            src="https://static1.bigstockphoto.com/5/2/4/large1500/425168726.jpg"
-            alt="bone"
-          />
-          <img
-            src="https://static3.bigstockphoto.com/6/2/4/large1500/426043262.jpg"
-            alt="bone"
-          />
-        </figure>
+      <div className={styles.headerCategory}>
+        <div id={styles.category}>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_652858-MLB45455601791_042021-O.webp" alt="category" />
+          <span>Bonés</span>
+        </div>
+        <div id={styles.category}>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_652858-MLB45455601791_042021-O.webp" alt="category" />
+          <span>Bonés</span>
+        </div>
+        <div id={styles.category}>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_652858-MLB45455601791_042021-O.webp" alt="category" />
+          <span>Bonés</span>
+        </div>
       </div>
       <div className={styles.container}>
         <div className={styles.products}>
